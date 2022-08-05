@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan-color: hsl(185, 75%, 39%);
+    --dark-desaturated-blue-color: hsl(229, 23%, 23%);
+    --dark-grayish-blue-color: hsl(227, 10%, 46%);
+    --dark-grey-color: hsl(0, 0%, 59%);
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    background-blend-mode:overlay;
+    background-color: var(--dark-cyan-color);
+    background-image: url("../images/bg-pattern-top.svg"),  url("../images/bg-pattern-bottom.svg");
+    background-position: top 120% left 130%, top -100% left -50%;
+    background-repeat: no-repeat;
+}
+.wrapper {
+    padding: 18px;
+}
+.profile-card {
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 150px 150px max-content;
+    margin: auto auto;
+    overflow: hidden;
+    width: 100%;
+}
+.profile-card__banner {
+    background: url("../images/bg-pattern-card.svg") center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.profile-card__image {
+    background-color: white;
+    border-radius: 100%;
+    border: 5px solid white;
+    height: 75%;
+    position: relative;
+    top: 62.5%; 
+}
+
+.profile-card__profile {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.profile__address {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.profile__address-number {
+    font-weight: 500;
+}
+.profile__city {
+    margin-bottom: 1em;
+}
+.profile-card__stats {
+    background-color: white;
+    border-top: 2px solid var(--dark-greyish-blue-color);
+    display: flex;
+    justify-content: space-around;
+}
+.profile-card__stats-stat {
+    text-align: center;
+    padding: 1.5em 0;    
+}
+.profile-card__stats-stat:last-of-type {
+    border-right: none;
+}
+.stat-count {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
