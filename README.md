@@ -8,14 +8,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Build out the project to the designs provided
 
 ### Screenshot
-
-![](.screenshots/solution_screenshot.jpg)
+Solution Screenshot
+![](https://github.com/IvanKoshan2004/frontendmentor-profile-card-component-main/blob/gh-pages/screenshots/solution_screenshot.png)
 
 ### Links
 
 - Live Site URL: (https://ivankoshan2004.github.io/frontendmentor-profile-card-component-main/)
-
-## My process
 
 ### Built with
 
@@ -26,6 +24,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 I've learned to build backgrounds using multiple images with absolute positioning and transformation.
 
-## Author
+### Author
 
 - Frontend Mentor - [@IvanKoshan2004](https://www.frontendmentor.io/profile/IvanKoshan2004)
